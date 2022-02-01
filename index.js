@@ -1,13 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-//import './index.css';
+import Home from "./pages/home";
 
-import App from './App';
-//import reportWebVitals from './reportWebVitals';
+function App() {
+  return(
+    <>
+      <Home/>
+    </>);
+}
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
-//document.getElementById('root')
+export default App
